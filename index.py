@@ -9,10 +9,11 @@ book = book1 + book2
 #print(book)
 
 # Word Count
-print('Word Count: ', files.wordCount(book))
+#print('Word Count: ', files.wordCount(book))
 
 # Unique Word Count
-# print('Unique Word Count: ', files.uniqueWordCount(book))
+count =  files.uniqueWordCount(book)
+print('Unique Word Count: ', count)
 
 # Quijote count
 # print('find Content: ', files.findContent(book, 'quijote'))
